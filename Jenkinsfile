@@ -44,6 +44,13 @@ pipeline {
                 }
             }
         }
+	stage('Run Container') {
+            steps {
+                script {
+                    sh "docker run -d --name mmtnc_pj3_container -p 3000:3000 ${IMAGE_NAME}:latest"
+                }
+            }
+        }
     }
 
     post {
