@@ -33,7 +33,7 @@ pipeline {
         stage('Push Docker Image') {
             steps {
                 script {
-                    sh "docker push ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}"
+                    sh "docker push ${IMAGE_NAME}:latest"
                 }
             }
         }
