@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('docker-hub-credentials')
-        IMAGE_NAME = "nzh1404/mmtnc_pj3"
+        IMAGE_NAME = "nzhuy1404/mmtnc_pj3"
     }
 
     stages {
