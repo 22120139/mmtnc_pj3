@@ -1,0 +1,11 @@
+{
+"name": "mmtnc_pj3",
+"version": "1.0.0",
+"description": "A simple Node.js app for Docker pipeline",
+"main": "server.js",
+"scripts": {
+"start": "node server.js"
+},
+"author": "Nguyễn Văn Huy",
+"license": "ISC"
+}
