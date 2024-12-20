@@ -40,7 +40,7 @@ pipeline {
         stage('Cleanup') {
             steps {
                 script {
-                    docker.image("${IMAGE_NAME}:latest").remove()
+                    sh "docker rmi ${IMAGE_NAME}:latest || true"
                 }
             }
         }
