@@ -1,4 +1,3 @@
-Tạo file Dockerfile:
 # Sử dụng image Node.js chính thức
 FROM node:14
 
